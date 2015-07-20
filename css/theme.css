@@ -1,6 +1,6 @@
 @media(min-width:767px) {
         .navbar {    
-            background: #AFAFAF ;
+            background: #AFAFAF;
             opacity: 0.97;
             color: white;
         }
@@ -11,10 +11,23 @@
         .navbar-default .navbar-nav > li > a {
           color: #F2F2F2;
         }
+    
     }
 
-.navbar-default .navbar-brand {
-  color: #F2F2F2;
+.navbar-default, .navbar-default .navbar-brand {
+    color: #F2F2F2;
+    background: #AFAFAF;  
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #F2F2F2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F2F2F2;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
 }
 
 .intro-section {
