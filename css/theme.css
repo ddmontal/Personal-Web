@@ -3,6 +3,7 @@
             background: #AFAFAF;
             opacity: 0.97;
             color: white;
+            border: 0;
         }
         body {
             background: #F2F2F2; 
@@ -56,4 +57,24 @@
     padding-top: 150px;
     text-align: center;
     background: #E5E5E5;
+}
+
+#menu-item-about.active,
+#menu-item-services.active, 
+#menu-item-contact.active {
+    border: 0
+}
+
+#menu-item-about.active a {
+    background-color: #E5E5E5;
+    
+}
+
+#menu-item-services.active a {
+    background-color: #F2F2F2;
+}
+
+#menu-item-contact.active a {
+    background-color: #E5E5E5;
+    
 }
